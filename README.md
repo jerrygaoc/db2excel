@@ -9,7 +9,4 @@ This is a tool to help turn a SQL statement result into a Excel file
 # 使用方法
   1. 创建一个Export2Excel类的实例,并带入driverName, dbURL, userName, userPwd 这四个参数。
   2. 调用Export2Excel.setSql(String Sql) 方法，传入SQL语句
-  3. 调用Export2Excel.doExport(String fileName, String sheetName)方法, 导出Excel文件, 并返回操作结果Code:
-        -1  :   RESULT_FAIL1
-         0  :   RESULT_NO_RECORD_FOUND
-         1  :   RESULT_SUCCESS
+  3. 调用Export2Excel.doExport(String fileName, String sheetName)方法, 导出Excel文件, 并返回操作结果Code:RESULT_FAIL(-1), RESULT_NO_RECORD_FOUND(0), RESULT_SUCCESS(1)
